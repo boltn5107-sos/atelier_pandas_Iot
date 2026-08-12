@@ -1,10 +1,11 @@
 # Atelier Pandas
 
-[![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
-[![Pandas](https://img.shields.io/badge/Pandas-2.x-150458?style=flat-square&logo=pandas&logoColor=white)](https://pandas.pydata.org)
-[![NumPy](https://img.shields.io/badge/NumPy-2.x-013243?style=flat-square&logo=numpy&logoColor=white)](https://numpy.org)
-[![Jupyter](https://img.shields.io/badge/Jupyter_Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white)](https://jupyter.org)
-[![License](https://img.shields.io/badge/Licence-MIT-2ea44f?style=flat-square)](LICENSE)
+<p align="center">
+  <a href="https://www.python.org"><img src="assets/icons/python-original.svg" alt="Python" width="32" height="32"></a>&nbsp;&nbsp;
+  <a href="https://pandas.pydata.org"><img src="assets/icons/pandas-original.svg" alt="Pandas" width="32" height="32"></a>&nbsp;&nbsp;
+  <a href="https://numpy.org"><img src="assets/icons/numpy-original.svg" alt="NumPy" width="32" height="32"></a>&nbsp;&nbsp;
+  <a href="https://jupyter.org"><img src="assets/icons/jupyter-original.svg" alt="Jupyter" width="32" height="32"></a>
+</p>
 
 Atelier pratique de préparation et d'analyse de données avec **Pandas**.
 
