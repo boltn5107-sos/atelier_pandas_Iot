@@ -28,12 +28,16 @@ atelier_pandas_iot/
 ├── notebooks/                           # Notebook d'analyse
 │   └── atelier_pandas_iot.ipynb
 │
-└── exports/                             # Données nettoyées (généré)
-    ├── donnees_nettoyees.csv
-    └── donnees_nettoyees.json
+├── exports/                             # Données nettoyées (généré)
+│   ├── donnees_nettoyees.csv
+│   └── donnees_nettoyees.json
+│
+└── assets/                              # Icônes du README (racine)
 ```
 
 ## Déroulé de l'atelier
+
+Les **13 parties** du notebook sont réalisées et exécutées.
 
 | Partie | Thème |
 |--------|-------|
@@ -51,12 +55,20 @@ atelier_pandas_iot/
 | 12 | Exportation |
 | 13 | Bonus |
 
+### Bonus (partie 13)
+
+- **Analyse temporelle** : conversion de `date_heure` en datetime, extraction du jour et de l'heure
+- **Détection d'anomalies** : z-score sur la température, comptage par bâtiment
+- **Matrice de corrélation** : température, humidité, pression, consommation
+- **Visualisations** : évolution de la température, répartition par état, consommation par bâtiment
+- **Consommation par heure** : agrégation et identification de l'heure de pic
+
 ## Installation
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate          # Windows : .venv\Scripts\activate
-python -m pip install pandas numpy jupyter
+python -m pip install pandas numpy matplotlib jupyter
 ```
 
 ## Utilisation
